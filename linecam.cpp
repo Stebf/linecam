@@ -38,7 +38,7 @@ char* Linecam::information(int variant) {
     switch (variant)
     {
     case 1:
-        //message = "Current libary version: " + version;
+        message = version;
         break;
     
     default:

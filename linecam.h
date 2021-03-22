@@ -20,8 +20,9 @@ public:
    char* information(void);
    char* information(int variant);
    char* information(char variantChar);
-
 private:
+
+protected:
     char* version = "0.0.1";
 };
 
